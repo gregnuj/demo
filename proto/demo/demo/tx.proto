@@ -1,0 +1,13 @@
+syntax = "proto3";
+package demo.demo;
+
+// this line is used by starport scaffolding # proto/tx/import
+
+option go_package = "demo/x/demo/types";
+
+// Msg defines the Msg service.
+service Msg {
+    // this line is used by starport scaffolding # proto/tx/rpc
+}
+
+// this line is used by starport scaffolding # proto/tx/message
